@@ -1,0 +1,1 @@
+window.CKEDITOR_BASEPATH = '/www/fond2/sites/all/libraries/ckeditor/';
