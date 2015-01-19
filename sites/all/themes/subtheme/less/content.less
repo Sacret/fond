@@ -3,6 +3,10 @@
   src: url(../fonts/segoe.ttf) format('truetype');
 }
 
+a, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Segoe';
+}
+
 #block-sharethis-sharethis-block {
   text-align: right;
   margin-top: 15px;
@@ -11,11 +15,10 @@
 #block-system-main-menu {
   margin: 0 -15px 20px;
   .menu {
-    display: flex;
     background-color: #00a3e8;
     > li {
+      border: 1px solid darken(#00a3e8, 10%);
       text-align: center;
-      width: 16.66%;
       &.active-trail, &:hover {
         background-color: darken(#00a3e8, 10%);
       }
@@ -48,6 +51,9 @@
 .view-objects {
   .col {
     margin-bottom: 20px;
+    img {
+      padding: 20px 30px 20px 0;
+    }
   }
 }
 
@@ -61,4 +67,9 @@
 .view-partners {
   text-align: center;
   margin-top: 20px;
+}
+
+.well {
+  background: none;
+  border: none;
 }
